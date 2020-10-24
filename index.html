@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DATA MAHASISWA</title>
+</head>
+<body>
+    <form>
+        <h1>Formulir Pendaftaran Siswa</h1>
+        <b><fieldset id="Informasi Pribadi"></b>
+            <legend><b>Informasi Pribadi</b></legend>
+            <ul>
+                <label for="name">Nama</label>
+                <input type="text" name="nama" id="nama">
+            </ul>
+            <ul>
+                <label for="tanggal_lahir">Tanggal Lahir</label>
+                <input type="date" name="tanggal_lahir" id="tanggal_lahir">
+            </ul>
+        </fieldset>
+
+       <b><fieldset id="Informasi Kontak"></b>
+            <legend><b>Informasi Kontak</b></legend>
+            <ul>
+                <label for="alamat">Alamat</label>
+                <textarea name="alamat" cols="30" rows="3"></textarea>
+            </ul>
+            <ul>
+               <label for="kota">Kota</label>
+                <input type="text" name="kota" id="kota">
+            </ul>
+            <ul>
+                <label for="kode_pos">Kode Pos</label>
+                <input type="text" name="kode_pos" id="kode_pos">
+            </ul>
+            <ul>
+                <label for="telepon">Telepon</label>
+                <input type="text" name="telepon" id="telepon">
+            </ul>
+            <ul>
+                <label for="provinsi">Provinsi</label>
+                <input type="text" name="provinsi" id="provinsi">
+            </ul>
+            <ul>
+                <label for="negara">Negara</label>
+                <input type="text" name="negara" id="negara">
+            </ul>
+            <ul>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </ul>
+            <ul>
+                <label for="Tipe_Membership">Tipe Membership</label>
+                <input type="radio" name="TM" value="Reguler"/>Reguler
+                <input type="radio" name="TM" value="Premium"/>Premium
+                <input type="radio" name="TM" value="VIP"/>VIP
+            </ul>
+                                
+        </fieldset>
+       <b><fieldset id="Informasi Kursus"></b>
+                <legend><b>Informasi Kursus</b></legend>
+                <ul>
+                    <label for="Nama_kursus">Nama Kursus</label>
+                    <input type="text" name="Nama_kursus" id="Nama_kursus">
+                </ul>
+                <ul>
+                    <label for="detail_pembayaran">Detail Pembayaran</label>
+                    <input type="radio" name="detpem" value="cash"/> cash
+                    <input type="radio" name="detpem" value="cicilan"/> Cicilan
+                    <input type="radio" name="detpem" value="kartu_kredit"/> Kartu Kredit
+                </ul>
+                <ul> 
+                    <label for="komentar">Komentar</label>
+                    <textarea name="Komentar" id="" cols="30" rows="2"></textarea>
+                </ul>
+            </fieldset>
+            <button type="submit">Kirim</button>
+
+    </form>
+
+</body>
+</html>
